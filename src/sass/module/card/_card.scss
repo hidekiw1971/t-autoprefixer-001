@@ -1,0 +1,11 @@
+@use "global" as *;
+.card {
+  // size
+  display: inline-block;
+  max-width: rem(375);
+  width: 100%;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

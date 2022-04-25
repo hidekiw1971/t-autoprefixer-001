@@ -1,0 +1,9 @@
+@use "global" as *;
+.card__title {
+  // decoration
+  color: #fff;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
